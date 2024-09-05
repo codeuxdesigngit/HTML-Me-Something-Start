@@ -1,1 +1,54 @@
 /* Write your CSS here! */
+
+body {
+    margin: 8px;
+    display: block;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#mainHeading {
+    color: red;
+    font-size: 2.5em; 
+}
+
+#about-artist {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#about-artist img {
+    width: 80%; 
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px; 
+}
+
+
+#war-diary {
+    margin-top: 20px;
+}
+
+.diary-entry {
+    margin-bottom: 40px;
+}
+
+.diary-entry img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; 
+}
+
+
+footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
