@@ -43,6 +43,12 @@ header {
     border-radius: 10px; 
 }
 
+#testP.funParagraph {
+    color: green;
+    font-style: italic;
+    font-size: 1.2em;   
+    margin-top: 20px;
+}
 
 footer {
     background-color: #f4f4f4;
