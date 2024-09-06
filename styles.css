@@ -3,8 +3,13 @@
 body {
     margin: 8px;
     display: block;
-    font-family: Arial, sans-serif;
+    font-family: 'Tahoma', sans-serif; 
+    padding-left: 10%;  
+    padding-right: 10%;
+    font-size: 1.2em; 
+    line-height: 1.6; 
 }
+
 
 header {
     text-align: center;
@@ -12,8 +17,9 @@ header {
 }
 
 #mainHeading {
-    color: red;
-    font-size: 2.5em; 
+        color: red;
+        font-family: 'Arial Black', sans-serif;
+        font-size: 3em; 
 }
 
 #about-artist {
@@ -21,11 +27,22 @@ header {
     margin-bottom: 40px;
 }
 
+.artist-container {
+    width: 80%;  
+    max-width: 600px;  
+    margin: 0 auto;  
+}
+
 #about-artist img {
-    width: 80%; 
-    max-width: 600px;
+    width: 100%;  
     height: auto;
-    border-radius: 10px; 
+    border-radius: 10px;
+}
+
+#about-artist p {
+    width: 100%; 
+    text-align: justify;  
+    margin-top: 15px; 
 }
 
 
@@ -37,6 +54,16 @@ header {
     margin-bottom: 40px;
 }
 
+.diary-entry h3 {
+    font-family: 'Georgia', serif; 
+    font-size: 2em; 
+    margin-bottom: 10px;
+}
+
+.diary-entry p {
+    font-size: 1em;  
+}
+
 .diary-entry img {
     width: 100%;
     height: auto;
@@ -46,13 +73,13 @@ header {
 #testP.funParagraph {
     color: green;
     font-style: italic;
-    font-size: 1.2em;   
+    font-size: 1em;  
     margin-top: 20px;
 }
 
 footer {
     background-color: white;
-    text-align: center;
+    text-align: left;
     padding: 10px;
     position: fixed;
     width: 100%;
